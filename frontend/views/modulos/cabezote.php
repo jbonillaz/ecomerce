@@ -8,7 +8,7 @@ Top
 
         <div class="row">
                 <!--=====================================
-                Top
+                Redes Sociales.
                 ======================================-->
             
             <div class="col-lg-9 col-md-9 col-sm-8 col-xs-12 social">
@@ -16,19 +16,19 @@ Top
                 <ul>
                 
                     <li>
-                        <a href="http://facebook.com/" target="_blank"><i class="fa fa-facebook redSocial facebookBlanco" area-hiden="true"></i></a>
+                        <a href="http://facebook.com/" target="_blank"><i class="fa fa-facebook redSocial facebookColor" area-hiden="true"></i></a>
                     </li>
                     <li>
-                        <a href="http://youtube.com/" target="_blank"><i class="fa fa-youtube redSocial youtubeBlanco" area-hiden="true"></i></a>
+                        <a href="http://youtube.com/" target="_blank"><i class="fa fa-youtube redSocial youtubeColor" area-hiden="true"></i></a>
                     </li>
                     <li>
-                        <a href=" http://twitter.com/" target="_blank"><i class="fa fa-twitter redSocial twitterBlanco" area-hiden="true"></i></a>
+                        <a href=" http://twitter.com/" target="_blank"><i class="fa fa-twitter redSocial twitterColor" area-hiden="true"></i></a>
                     </li>
                     <li>
-                        <a href="http://google.com/" target="_blank"><i class="fa fa-google-plus redSocial googleBlanco" area-hiden="true"></i></a>
+                        <a href="http://google.com/" target="_blank"><i class="fa fa-google-plus redSocial googleColor" area-hiden="true"></i></a>
                     </li>
                     <li>
-                        <a href="http://instagram.com/" target="_blank"><i class="fa fa-instagram redSocial instagramBlanco" area-hiden="true"></i></a>
+                        <a href="http://instagram.com/" target="_blank"><i class="fa fa-instagram redSocial instagramColor" area-hiden="true"></i></a>
                     </li>
 
 
@@ -67,7 +67,7 @@ Header
         <div class="row" id="cabezote">
 
                 <!--=====================================
-                Registro
+                Logo.
                 ======================================-->
 
             <div class="col-lg-3 col-md-3 col-sm-2 col-xs-12" id="logotipo">
