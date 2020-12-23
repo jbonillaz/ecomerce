@@ -18,6 +18,8 @@
 
     <script src="views/js/plugins/jquery.min.js"></script>
     <script src="views/js/plugins/bootstrap.min.js"></script>
+    
+    
 
 
 
@@ -31,6 +33,8 @@
         
         include "modulos/cabezote.php";
     ?>
+    <script src="views/js/plantilla.js"></script>
+    <script src="views/js/cabezote.js"></script>
     
 </body>
 </html>
