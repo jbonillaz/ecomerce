@@ -7,6 +7,7 @@ Top
     <div class="container">
 
         <div class="row">
+
                 <!--=====================================
                 Redes Sociales.
                 ======================================-->
@@ -15,10 +16,27 @@ Top
 
                 <ul>
                 
-                    <li>
-                        <a href="http://facebook.com/" target="_blank"><i class="fa fa-facebook redSocial facebookColor" area-hiden="true"></i></a>
-                    </li>
-                    <li>
+                    <?php
+
+                        $social = ControladorPlantilla::ctrEstiloPlantilla();
+                    
+                        $jsonRedesSociales = json_decode($social["redesSociales"],true);
+                        
+                       
+                        
+
+                        foreach ($jsonRedesSociales as $key => $value) {
+
+                            echo '<li>
+                                    <a href="'.$value["url"].'" target="_blank">
+                                        <i class="fa '.$value["red"].' redSocial '.$value["estilo"].'" aria-hidden="true"></i>
+                                    </a>
+                                </li>';
+                        }
+
+                    ?>
+                    
+                    <!-- <li>
                         <a href="http://youtube.com/" target="_blank"><i class="fa fa-youtube redSocial youtubeColor" area-hiden="true"></i></a>
                     </li>
                     <li>
@@ -29,7 +47,7 @@ Top
                     </li>
                     <li>
                         <a href="http://instagram.com/" target="_blank"><i class="fa fa-instagram redSocial instagramColor" area-hiden="true"></i></a>
-                    </li>
+                    </li> -->
 
 
                 </ul>
