@@ -7,6 +7,16 @@
     <meta name="description" content="Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quisquam accusantium enim esse eos officiis sit officia">
 	<meta name="keyword" content="Lorem ipsum, dolor sit amet, consectetur, adipisicing, elit, Quisquam, accusantium, enim, esse">
     <title>Tienda Virtual</title>
+
+    
+    <!-- icono dinamico, se cambia desde la base de datos.  -->
+    <?php 
+    
+        $icono = ControladorPlantilla::ctrEstiloPlantilla();
+
+        echo '<link rel="icon" href="'.$icono["icono"].'">';
+    
+    ?>
     
     <!-- <base href="views/"> -->
     <link rel="stylesheet" href="views/css/plugins/bootstrap.min.css">
@@ -33,8 +43,9 @@
         
         include "modulos/cabezote.php";
     ?>
-    <script src="views/js/plantilla.js"></script>
+    
     <script src="views/js/cabezote.js"></script>
+    <script src="views/js/plantilla.js"></script>
     
 </body>
 </html>

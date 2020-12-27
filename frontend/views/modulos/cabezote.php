@@ -92,7 +92,7 @@ Header
 
                 <a href="#">
 
-                    <img src="http://localhost/proyectos/E-Comerce/frontend/views/img/plantilla/logo.png" class="img-responsive" alt="">
+                    <img src="http://localhost/proyectos/E-Comerce/frontend/<?php echo $social["logo"]?>" class="img-responsive" alt="">
                 
                 </a>
 

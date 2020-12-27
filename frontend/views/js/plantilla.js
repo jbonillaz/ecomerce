@@ -2,27 +2,30 @@
 Plantilla.
 =============================================*/
 
-// $.ajax({
+$.ajax({
 
-//     url: "ajax/plantilla.ajax.php",
-//     success: function(respuesta) {
+    url: "ajax/plantilla.ajax.php",
+    success: function(respuesta) {
+        // console.log(respuesta);
 
-//         var colorFondo = JSON.parse(respuesta).colorFondo;
-//         var colorTexto = JSON.parse(respuesta).colorTexto;
-//         var barraSuperior = JSON.parse(respuesta).barraSuperior;
-//         var textoSuperior = JSON.parse(respuesta).textoSuperior;
+        // console.log(JSON.parse(respuesta).colorFondo);
 
-//         $(".backColor, .backColor a").css({
-//             "background": colorFondo,
-//             "color": colorTexto
-//         })
+        var colorFondo = JSON.parse(respuesta).colorFondo;
+        var colorTexto = JSON.parse(respuesta).colorTexto;
+        var barraSuperior = JSON.parse(respuesta).barraSuperior;
+        var textoSuperior = JSON.parse(respuesta).textoSuperior;
 
-//         $(".barraSuperior, .barraSuperior a").css({
-//             "background": barraSuperior,
-//             "color": textoSuperior
-//         })
+        $(".backColor, .backColor a").css({
+            "background": colorFondo,
+            "color": colorTexto
+        })
 
-//     }
+        $(".barraSuperior, .barraSuperior a").css({
+            "background": barraSuperior,
+            "color": textoSuperior
+        })
+
+    }
 
 
-// })
+})
