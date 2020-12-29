@@ -28,7 +28,7 @@
 
     <script src="views/js/plugins/jquery.min.js"></script>
     <script src="views/js/plugins/bootstrap.min.js"></script>
-    
+
     
 
 

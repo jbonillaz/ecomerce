@@ -173,6 +173,18 @@ Header
                 ======================================-->
 
             <div class="col-xs-12 backColor" id="categorias">
+
+            <?php 
+
+                    $categorias = ControladorProductos::ctrMostrarCategorias();
+
+                   
+
+                    foreach ($categorias as $key => $value) {
+                        var_dump($categorias["categoria"]);
+                    }
+
+            ?>
 			
                 <div class="col-lg-2 col-md-3 col-sm-4 col-xs-12">
                     
